@@ -1,0 +1,17 @@
+{
+  "name": "translator-robit",
+  "version": "1.0.0",
+  "description": "A bot application for translating non-English words in Discord using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Cian O'Gralaigh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "express": "4.16.3"
+  }
+}
