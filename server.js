@@ -1,9 +1,10 @@
 const express = require("express");
+require('dotenv').load();
 const axios = require('axios');
 const Discord = require('discord.js');
 
 // Your YANDEX API KEY here
-const YANDEX_API_KEY = '';
+const YANDEX_API_KEY = process.env.API;
 const PORT = 3000;
 
 const client = new Discord.Client();
@@ -23,7 +24,7 @@ client.on('message', msg => {
 });
 
 // Discord Bot token 
-client.login('NTUxMzczMzE5MDMxNzUwNjU5.D1wB_A.bYRhoD98yufckxL-MtA40XOktYA');
+client.login(process.env.bot);
 
 const app = express();
 
