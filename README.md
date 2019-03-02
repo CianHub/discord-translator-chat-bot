@@ -1,5 +1,5 @@
 # discord-translator-chat-bot
-A Discord chatbot that detects if a message is in English and if not translate that message to English.
+A Discord chatbot that detects if a message is in English and if not then translates that message to English.
 
 Server deployed on Heroku
 
